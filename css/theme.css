@@ -2,7 +2,7 @@ body {
   font-size: 16px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 414px) {
   #wrapper.toggled .navbar-title,
   #wrapper.toggled .container-fluid {
     display: none !important;
@@ -20,7 +20,7 @@ body {
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 414px) {
   .navbar {
     position: relative;
   }
