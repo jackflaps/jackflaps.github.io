@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jackflaps.net</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/theme.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+        <div id="about-wrapper">
+      <div class="about-masthead">
+        <h1>Kevin Clair</h1>
+      </div>
+
+      <div class="about-contents">
+        <ul>
+          <li><a href="http://192.168.56.101:4000/about">About</a></li>
+          <li><a href="http://192.168.56.101:4000/projects">Projects</a></li>
+          <li><a href="http://192.168.56.101:4000/archives">Archives</a></li>
+          <li class="last-item"><a href="http://192.168.56.101:4000/credits">Credits</a></li>
+        </ul>
+      </div>
+
+      <div class="about-rights">
+        <p>&copy; 2015. <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a></p>
+      </div>
+    </div>
+
+
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="navbar-title">
+        <span class="title">
+          <a href="http://192.168.56.101:4000">jackflaps.net</a>
+        </span>
+        <span class="subtitle">| Kevin Clair</span>
+      </div>
+      <div class="header-about-toggle">
+        <a href="#sidebar-toggle" class="btn btn-default" id="sidebar-toggle">
+          <span class="icon-bar"> </span>
+          <span class="icon-bar"> </span>
+          <span class="icon-bar"> </span>
+        </a>
+      </div>
+    </div>
+
+
+<div class="container-fluid content">
+  <div class="row-fluid">
+    <div class="article">
+  <h1 class="title">
+    <a href="http://192.168.56.101:4000/about">Credits</a>
+  </h1>
+  <div class="post-content">
+    <p>jackflaps.net is hosted via <a href="http://pages.github.com">Github Pages</a>. It runs on Jekyll.</p>
+    <p>Layout derived from <a href="https://github.com/scotte/jekyll-clean">Jekyll Clean</a>, torn down and rebuilt to suit my purpose. Layout ideas are stolen from my colleague <a href="http://dawnchildress.com">Dawn Childress.</a></p>
+    <p>All content on jackflaps.net is published under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a> license.</p>
+  </div>
+</div>
+
+  </div>
+</div>
+
+    </div>
+
+    <script>
+      $("#sidebar-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+
+  </body>
+</html>
+

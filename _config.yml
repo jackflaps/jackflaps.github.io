@@ -1,0 +1,34 @@
+# Jekyll configuration
+
+name: jackflaps.net
+subtitle: '| Kevin Clair'
+owner: Kevin Clair
+description: Site description
+
+# url is currently only used only for the RSS feed in feed.xml
+url: http://192.168.56.101:4000
+
+# home page
+home: http://192.168.56.101:4000
+
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+baseurl: ''
+
+# This can be '' to hide the Github nav button
+github: ''
+
+# Set this to your UA-# value, or '' to disable the block completely
+gaaccount: ''
+
+permalink: /:year/:month/:title
+paginate: 3
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+exclude: ['README.md', 'LICENSE']
