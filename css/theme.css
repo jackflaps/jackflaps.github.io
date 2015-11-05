@@ -2,9 +2,8 @@ body {
   font-size: 16px;
 }
 
-@media (max-width: 414px) {
-  #wrapper.toggled .navbar-title,
-  #wrapper.toggled .container-fluid {
+@media (max-width: 480px) {
+  #wrapper.toggled .navbar-title {
     display: none !important;
   }
 
@@ -20,7 +19,13 @@ body {
   }
 }
 
-@media (min-width: 414px) {
+@media (max-width: 420px) {
+  #wrapper.toggled .container-fluid {
+    display: none !important;
+  }
+}
+
+@media (min-width: 480px) {
   .navbar {
     position: relative;
   }
@@ -212,5 +217,5 @@ body {
 .article .post-content {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.0em;
-  padding-left: 10px;
+  padding: 0 10px;
 }
