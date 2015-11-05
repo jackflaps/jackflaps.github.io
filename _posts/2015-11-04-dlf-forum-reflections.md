@@ -20,4 +20,5 @@ The Forum still feels like home to me, more than ever. May it long be so.
 ---
 
 <a name="1"></a>\[1\]: A small part of my professional privilege is having been at Penn State back when, if you weren't at one of the 30-ish DLF member institutions, you weren't even allowed to attend the Forum. That always felt weird to me and I'm glad it didn't last long.
+
 <a name="2"></a>\[2\]: Well, I was, but I don't think my Geocities pages about my baseball card collection were a valuable contribution to it.
