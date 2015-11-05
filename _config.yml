@@ -9,7 +9,7 @@ description: Site description
 url: http://192.168.56.101:4000
 
 # home page
-home: http://192.168.56.101:4000
+home: http://jackflaps.github.io
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
