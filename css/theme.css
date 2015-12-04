@@ -220,6 +220,10 @@ body {
   padding: 0 10px;
 }
 
+.article .small {
+  font-size: 0.75em;
+}
+
 .article .post-signature {
   font-family: 'EB Garamond', serif;
   font-size: 1.0em;
