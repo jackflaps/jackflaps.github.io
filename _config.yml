@@ -6,7 +6,7 @@ owner: Kevin Clair
 description: Site description
 
 # url is currently only used only for the RSS feed in feed.xml
-url: http://192.168.56.101:4000
+url: http://localhost:4000
 
 # home page
 home: http://jackflaps.github.io
@@ -27,7 +27,7 @@ permalink: /:year/:month/:title
 paginate: 3
 
 highlighter: pygments
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
