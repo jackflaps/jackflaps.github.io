@@ -24,9 +24,9 @@ github: ''
 gaaccount: ''
 
 permalink: /:year/:month/:title
-paginate: 3
+#paginate: 3
 
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
