@@ -13,7 +13,7 @@ You can run the CSV report that the container conversion job generates as input 
 
 1. Remove every column except the 'instance' column and the 'uri' column containing Archival Object URIs
 2. From the 'instance' column, select "Edit column" and then "Add new column based on this column"
-3. I named the column "barcode" but feel free to name it whatever. The expression value you'll want is: **partition(value, "barcode_1\"=>")[2].split(',')[0].replace("\"",'')**
+3. I named the column "barcode" but feel free to name it whatever. The expression value you'll want is: **partition(value, "barcode_1\\"=>")[2].split(',')[0].replace("\\"",'')**
 4. You can now delete the 'instance' column and export the project as CSV. You'll need to delete the header row and change the newline characters from '\r\n' to '\n' for the script to work.
 
 Hopefully this helps someone with their 1.5.0 upgrade! [Let me know](mailto:kevin@jackflaps.net) if you have any questions or advice about improving this; as ever, I'm figuring this out as I go.
