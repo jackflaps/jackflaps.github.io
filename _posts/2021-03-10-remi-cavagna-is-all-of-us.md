@@ -17,7 +17,7 @@ But here we are, and the Shimano neutral service is there to help, and then the 
 
 The imperious Primož Roglič is the story of the race, and to see him march off the front is a sight to behold. It's beautiful, to hear him tell it, and if you don't want to take his word for it [you can take Kate Wagner's](https://derailleur.substack.com/p/paris-nice-stage-4) (and then subscribe to the newsletter). It's beautiful, and it's inspiring, but it's not relatable, is it? What's relatable is having your day's work done in by, alternately, a) some bullshit you can't control, or b) tiny, innocuous things you don't even realize are problems at the time. I mean, look at him: who among us has not, at one time or another this year, been here?
 
-![rémi cavagna, stage done, on the side of the road, 2021 paris-nice stage 4.](/images/cavagna_paris_nice.png)
+![rémi cavagna, stage done, on the side of the road, 2021 paris-nice stage 4.](/images/cavagna_paris_nice.png){: width="250" }
 
 I'd offer him a hug but they've been banned by the UCI.
 
